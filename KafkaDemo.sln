@@ -7,6 +7,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B97E9705-BEC7-4197-8C26-51295430EC3B}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
+		compose-cluster.yaml = compose-cluster.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.ConsumerMultipleGroup", "Kafka.ConsumerMultipleGroup\Kafka.ConsumerMultipleGroup.csproj", "{16864587-E811-4608-B813-0AF0C3CC2979}"
@@ -62,6 +63,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Ack.Consumer", "Kafka.Ack.Consumer\Kafka.Ack.Consumer.csproj", "{E1A67057-C040-4E91-A8B1-6804796E3FE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Ack.Shared", "Kafka.Ack.Shared\Kafka.Ack.Shared.csproj", "{8AB640A5-3719-48F0-A25A-B49E0B0412FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KafkaCluster", "KafkaCluster", "{ABECD6B2-1CA9-4BE3-B1F8-CFAC0ECA5D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Cluster.Producer", "Kafka.Cluster.Producer\Kafka.Cluster.Producer.csproj", "{FC1A3356-97EF-4736-9DC2-13044F0A88BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Cluster.Consumer", "Kafka.Cluster.Consumer\Kafka.Cluster.Consumer.csproj", "{10B0B66E-FBD3-4103-8E0A-136F931953DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +156,14 @@ Global
 		{8AB640A5-3719-48F0-A25A-B49E0B0412FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB640A5-3719-48F0-A25A-B49E0B0412FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB640A5-3719-48F0-A25A-B49E0B0412FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1A3356-97EF-4736-9DC2-13044F0A88BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1A3356-97EF-4736-9DC2-13044F0A88BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1A3356-97EF-4736-9DC2-13044F0A88BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1A3356-97EF-4736-9DC2-13044F0A88BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B0B66E-FBD3-4103-8E0A-136F931953DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B0B66E-FBD3-4103-8E0A-136F931953DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B0B66E-FBD3-4103-8E0A-136F931953DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B0B66E-FBD3-4103-8E0A-136F931953DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EF2FB61D-CF1F-4E72-B108-2A44D765449E} = {F32BAEC4-1F35-47A4-8060-112E86A943D7}
@@ -174,5 +189,7 @@ Global
 		{B079EE5B-D3D3-4F6A-8793-2081B777B2A3} = {7EB8E780-6CFC-4672-BF73-2591A76DDDFC}
 		{E1A67057-C040-4E91-A8B1-6804796E3FE8} = {7EB8E780-6CFC-4672-BF73-2591A76DDDFC}
 		{8AB640A5-3719-48F0-A25A-B49E0B0412FF} = {7EB8E780-6CFC-4672-BF73-2591A76DDDFC}
+		{FC1A3356-97EF-4736-9DC2-13044F0A88BB} = {ABECD6B2-1CA9-4BE3-B1F8-CFAC0ECA5D27}
+		{10B0B66E-FBD3-4103-8E0A-136F931953DB} = {ABECD6B2-1CA9-4BE3-B1F8-CFAC0ECA5D27}
 	EndGlobalSection
 EndGlobal
