@@ -19,7 +19,8 @@ internal static class KafkaService
         {
             var configs = new Dictionary<string, string>()
             {
-                { "message.timestamp.type", "LogAppendTime" } //Default is CreateTime
+                { "message.timestamp.type", "LogAppendTime" }, //Default is CreateTime
+                { "retention.ms", "-1" } //No retention policy
             };
             await adminClient.CreateTopicsAsync(new[]
             {
