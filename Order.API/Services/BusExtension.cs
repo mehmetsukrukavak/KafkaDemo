@@ -1,4 +1,5 @@
 using Order.API.Services.interfaces;
+using RealWorld.Shared;
 using RealWorld.Shared.Events;
 
 namespace Order.API.Services;
